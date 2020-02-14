@@ -1,0 +1,47 @@
+
+h1{
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+body{
+    text-align: center;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+
+input[type="text"] {
+
+    box-sizing: border-box;
+    padding-bottom: 5px;
+    text-align: center;
+    height: 30px;
+    top: 3px;
+    background: transparent;
+    font-size: 20px;
+    font-weight: 200;
+    width: 150px;
+    
+}
+
+.selector{
+    padding: 5px;
+}
+
+.button {
+    padding: 5px;
+}
+
+footer {
+    color: white;
+    color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.header{
+    background-color: black;
+    
+}

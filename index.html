@@ -1,31 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/styles/styles.css">
     <meta charset="UTF-8">
-    <title>Bitcoin Ticker</title>
+    <title>Crypto to Currency Converter</title>
 </head>
 <body>
-    <h1>Bitcoin Ticker</h1>
+    <div class="header">
+        <h1>Crypto to Currency Converter</h1>
+    </div>
     <form action="/" method="POST">
+        <h4>Convert</h4>
+        <br>
         
-        <input type="text" name="amount" placeholder="Quantity">
-
-        <select name="crypto">
+        <input type="text" name="amount" placeholder="Quantity" >
+        
+        <select name="crypto" class="selector">
             <option value="BTC">Bitcoin</option>
             <option value="ETH">Ethereum</option>
             <option value="LTC">Litecoin</option>
         </select>
+        <br>
+        <br>
+        <p>To</p>
 
-        <select name="currency">
+        <select name="currency" class="selector">
             <option value="USD">US Dollars</option>
             <option value="GBP">GB Pounds</option>
             <option value="EUR">EU Euros</option>
         </select>
+        <div></div>
+        <br>
 
-        <button type="submit" >Check</button>
+        <button type="submit" class="btn btn-dark" >Check</button>
 
 
     </form>
     
 </body>
+
+<footer class="fixed-bottom">
+        <p>© 2020 Eduardo Cappellotto</p>
+</footer>
+
 </html>
